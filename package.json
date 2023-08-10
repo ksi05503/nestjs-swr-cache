@@ -1,7 +1,7 @@
 {
   "name": "swr-cache",
   "version": "1.0.0",
-  "description": "stale-while-revalidate cache module using ioredis",
+  "description": "server side stale-while-revalidate cache module using ioredis",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
