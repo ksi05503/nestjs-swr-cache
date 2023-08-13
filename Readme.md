@@ -60,6 +60,6 @@ You can pass any Redis option to the forRoot method to configure the Redis clien
 
 ### License
 
-Copyright (c) 2023 @GITHUB_NICKNAME
+Copyright (c) 2023 @devyeon
 
 [MIT]
