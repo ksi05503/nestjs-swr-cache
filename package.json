@@ -1,7 +1,7 @@
 {
   "name": "swr-cache",
   "version": "1.0.0",
-  "description": "server side stale-while-revalidate cache module using ioredis",
+  "description": "NestJS module implementing the serverside Stale-While-Revalidate caching pattern using Redis.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
