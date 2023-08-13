@@ -27,6 +27,7 @@ export class YourModule {}
 ```
 
 #### Use the SwrCacheService in your service or controller:
+> Return type of 'getStaleAndRevalidate' function follows fetch function
 
 ```typescript
 import { SwrCacheService } from 'YOUR_NPM_PACKAGE_NAME';
@@ -39,13 +40,14 @@ export class YourService {
     const data = await this.swrCacheService.getStaleAndRevalidate(
       'your_cache_key',
       60000, // stale time
-      () => this.fetchDataFunction // This should be a factory function that returns a promise with the data you want to cache
+      () => this.fetch // This should be a factory function that returns a promise with the data you want to cache
     );
+
 
     return data;
   }
 
-  private async fetchDataFunction(): Promise<YourDataType> {
+  private async fetch(): Promise<YourDataType> {
     // Fetch your data from an API, database, etc.
   }
 }
