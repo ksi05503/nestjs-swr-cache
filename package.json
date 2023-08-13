@@ -4,7 +4,9 @@
   "description": "server side stale-while-revalidate cache module using ioredis",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc",
+    "prepublish": "npm run build"
   },
   "author": "devyeon",
   "license": "MIT",
