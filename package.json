@@ -1,5 +1,5 @@
 {
-  "name": "swr-cache",
+  "name": "nestjs-swr-cache",
   "version": "1.0.0",
   "description": "NestJS module implementing the serverside Stale-While-Revalidate caching pattern using Redis.",
   "main": "index.js",
